@@ -226,7 +226,7 @@
 
 
                         <li class="nav-item">
-                            <a href="pages/widgets.html" class="nav-link">
+                            <a href="/usuarios" class="nav-link">
                                 <i class="nav-icon fa fa-user"></i>
                                 <p>
                                     Usuarios
@@ -295,10 +295,6 @@
     <script src="{{ asset('plugins/jquery/jquery.min.js') }}"></script>
     <!-- jQuery UI 1.11.4 -->
     <script src="{{ asset('plugins/jquery-ui/jquery-ui.min.js') }}"></script>
-    <!-- Resolve conflict in jQuery UI tooltip with Bootstrap tooltip -->
-    <script>
-        $.widget.bridge('uibutton', $.ui.button)
-    </script>
     <!-- Bootstrap 4 -->
     <script src="{{ asset('plugins/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
     <!-- ChartJS -->
